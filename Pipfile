@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+pytest-django = "*"
+pytest = "*"
+environ = "*"
+django-environ = "*"
+django-extensions = "*"
+pytest-cov = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10.6"
+python_full_version = "3.10.6"
